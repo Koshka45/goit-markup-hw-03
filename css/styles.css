@@ -1,0 +1,218 @@
+:root{
+    --title-color: #2E2F42;
+    --subtitle-color: #434455;
+    --primary-color: #4D5AE5;
+    --btn-color: #F4f4fd;
+    --second-color: #404BBF;
+    --main-color: #FFFFFF;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--subtitle-color);
+    background: var(--main-color);
+}
+
+/* -----------------HEADER-------------------------------- */
+.header-navigation{
+    list-style: none;
+}
+
+.header-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: var(--title-color);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style-type: none;
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.header-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    text-decoration: none;
+}
+.header-link:hover,
+.header-link:focus{
+    color: var(--second-color); 
+}
+
+.adress{
+    font-style: normal;
+}
+.adress-link{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--subtitle-color);
+    
+}
+.adress-link:hover,
+.adress-link:focus{
+    color: var(--second-color);
+}
+
+/* -------------------HERO---------------------------------------- */
+.hero{
+    background: var(--title-color);
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+   
+}
+.hero-btn{
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    color: var(--main-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+/* --------------------TECHNO-------------------------------- */
+.techno-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.techno-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--subtitle-color);
+}
+/* ----------------------------DOING------------------------- */
+
+/* -------------------TEAM-------------------------- */
+.team{
+    background-color: var(--btn-color);
+}
+.team-item{
+    background-color: var(--main-color);
+}
+.doing-title,
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    text-align: center;
+    text-transform: capitalize;
+}
+.team-title-less{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    background-color: var(--main-color);
+}
+.team-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--subtitle-color);
+}
+
+/* ---------------FOOTER------------ */
+.footer{
+    background-color: var(--title-color);
+}
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--btn-color);
+
+}
+.footer-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--btn-color);
+}
+
+    
+/* -----------PORTFOLIO--------------     */
+.filters-btn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-color);
+    background-color: var(--btn-color);
+    cursor: pointer;
+
+}
+.filters-btn:hover,
+.filters-btn:focus{
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+ 
+
+.filters-list{
+   
+}
+
+
+.banking-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+
+.banking-desc{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--subtitle-color);
+}   
+    
+    
+    
+
+
+
+
+
