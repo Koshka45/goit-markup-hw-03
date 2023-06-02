@@ -6,10 +6,22 @@
     --second-color: #404BBF;
     --main-color: #FFFFFF;
 }
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--subtitle-color);
     background: var(--main-color);
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* -----------------HEADER-------------------------------- */
@@ -26,6 +38,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
+
 .link{
     text-decoration: none;
 }
@@ -93,6 +106,8 @@ body{
     color: var(--main-color);
     background-color: var(--primary-color);
     cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
 }
 .hero-btn:hover,
 .hero-btn:focus{
