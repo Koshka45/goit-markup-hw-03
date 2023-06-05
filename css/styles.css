@@ -18,26 +18,42 @@ body{
     color: var(--subtitle-color);
     background: var(--main-color);
 }
-.wrapper{
-  
+
+p,h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 
 /* -----------------HEADER-------------------------------- */
 
 .header{ 
     padding-top: 24px;
     padding-bottom: 24px;
+ 
 }
 .container{
     width: 100%;
-    max-width: 1470px;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    outline: 2px solid red;
     
     
 }
 .header-container{
     display: flex;
+    
 }
 .header-navigation{
     list-style: none;
@@ -63,20 +79,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
-p,h1,h2,h3,h4,h5,h6{
-    margin-top: 0;
-    margin-bottom: 0;
-}
 
-.link{
-    text-decoration: none;
-}
-.list{
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
 .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -87,7 +90,7 @@ p,h1,h2,h3,h4,h5,h6{
     color: var(--primary-color);
     text-decoration: none;
     margin-right: 76px;
-    margin-left: 140px;
+    
 }
 
 .header-link{
@@ -106,6 +109,10 @@ p,h1,h2,h3,h4,h5,h6{
 .adress{
     font-style: normal;
 }
+.adress-list{
+    display: flex;
+    gap: 40px;
+}
 .adress-link{
     font-size: 16px;
     line-height: 1.5;
@@ -121,8 +128,7 @@ p,h1,h2,h3,h4,h5,h6{
 /* -------------------HERO---------------------------------------- */
 .hero{
     background: var(--title-color);
-    width: 1440px;
-    height: 600px;
+    margin-bottom: 120px;
 }
 .hero-title{
     font-weight: 700;
@@ -131,7 +137,9 @@ p,h1,h2,h3,h4,h5,h6{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-color);
-    padding: 188px 472px 48px 472px;
+    min-width: 496px;
+    padding: 188px 426px 292px 426px;
+    
    
 }
 .hero-btn{
@@ -152,6 +160,10 @@ p,h1,h2,h3,h4,h5,h6{
     color: var(--main-color);
 }
 /* --------------------TECHNO-------------------------------- */
+.technolodgi{
+    display: flex;
+    justify-content: space-between;
+}
 .techno-title{
     font-weight: 500;
     font-size: 20px;
