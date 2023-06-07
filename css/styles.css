@@ -42,6 +42,7 @@ img{
 .header{ 
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7e9fc;
 }
 .container{
     width: 100%;
@@ -59,16 +60,20 @@ img{
 .header-navigation{
     list-style: none;
     display: flex;
+    align-items: center;
 
 }
 .header-list{
     display: flex;
     gap: 40px;
-    margin-left: 76px;
+    
 }
+
+
 .adress-list{
     display: flex;
     gap: 40px;
+    
 }
 
 .header-logo{
@@ -89,8 +94,10 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-color);
+    margin-right: 76px;
    
 }
+
 
 .header-link{
     font-weight: 500;
@@ -138,6 +145,7 @@ img{
     letter-spacing: 0.02em;
     color: var(--main-color);
     margin-bottom: 48px;
+    
 }
 
 .hero-btn{
@@ -152,6 +160,10 @@ img{
     display: block;
     margin: 0 auto;
     padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -160,7 +172,6 @@ img{
 }
 /* --------------------TECHNO-------------------------------- */
 .techno{
-    
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -168,6 +179,9 @@ img{
 .techno-list{
     display: flex;
     gap: 24px;
+}
+.techno-item{
+    flex-basis: calc((100% - 72px) / 4);
 }
 .techno-title{
     font-weight: 500;
@@ -224,7 +238,7 @@ img{
     color: var(--title-color);
     text-align: center;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .team-image{
     margin-bottom: 32px;
@@ -279,10 +293,7 @@ img{
     padding-top: 96px;
     padding-bottom: 120px;
 }
-.filters-container{
 
-    
-}
 .filters-list{
     display: flex;
     justify-content: center;
