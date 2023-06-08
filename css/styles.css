@@ -101,6 +101,7 @@ img{
     text-transform: uppercase;
     color: var(--primary-color);
     margin-right: 76px;
+    
    
 }
 
@@ -235,7 +236,7 @@ img{
 /* -------------------TEAM-------------------------- */
 .team{
     background-color: var(--btn-color);
-    padding-bottom: 120px;
+    padding: 120px 0;
 
 }
 .team-list{
@@ -265,9 +266,9 @@ img{
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-.team-image{
+
     
-}
+
 .team-title-less{
     font-weight: 500;
     font-size: 20px;
@@ -299,12 +300,12 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--btn-color);
-    
+    margin-bottom: 16px;
+
+}
 .logo-link{
     display: inline-block;
-    margin-bottom: 16px;
-}  
-
+    padding-bottom: 16px;
 }
 .footer-text{
     font-size: 16px;
@@ -355,9 +356,7 @@ img{
 }
  
 
-.filters-list{
-   
-}
+
 
 .card-set{
     display: flex;
