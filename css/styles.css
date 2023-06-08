@@ -61,7 +61,7 @@ img{
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 .header-container{
     display: flex;
@@ -326,6 +326,7 @@ img{
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 72px;
   
 }
 
@@ -339,7 +340,10 @@ img{
     background-color: var(--btn-color);
     cursor: pointer;
     padding: 12px 24px;
-    margin-bottom: 72px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+
+   
     
 
 }
@@ -347,18 +351,14 @@ img{
 .filters-btn:focus{
     background-color: var(--second-color);
     color: var(--main-color);
+    border: 1px solid transparent;
 }
  
 
 .filters-list{
    
 }
-.portfolio-container{
-    max-width: 1128px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .card-set{
     display: flex;
     flex-wrap: wrap;
@@ -369,10 +369,14 @@ img{
 }
 .card{
     width: calc((100% - 48px) / 3);
+
 }
-.banking-photo{
-    margin-bottom: 32px;
+.banking-add{
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
+
 .banking-text{
     font-weight: 500;
     font-size: 20px;
